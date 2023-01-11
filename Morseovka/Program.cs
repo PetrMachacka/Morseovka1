@@ -46,8 +46,7 @@ Console.WriteLine(txt.ToLower());
 // převod znaků na velké znaky
 string txt = "Šílená čivava";
 Console.WriteLine(txt.ToUpper());*/
-string txt = "cau";
+string txt = "ňekdo jech";
 MorseCodeConverter Jirka = new MorseCodeConverter();
 Console.WriteLine(Jirka.Encode(txt));
-Console.WriteLine(Jirka.normalize(txt));
-Console.WriteLine(Jirka.Decode(".-/.-"));
+Console.WriteLine(Jirka.Decode(".-/.-/----//----"));
